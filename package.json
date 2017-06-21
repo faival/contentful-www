@@ -1,0 +1,27 @@
+{
+  "name": "contentfull-www",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cf-graphql": "^0.4.2",
+    "cors": "^2.8.3",
+    "express-graphql": "^0.6.6",
+    "graphql-server-express": "^0.8.5",
+    "graphql-tools": "^1.0.0",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.2",
+    "react-dom": "^15.6.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "api": "node ./server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
